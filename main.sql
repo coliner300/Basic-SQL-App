@@ -18,4 +18,8 @@ INSERT INTO books VALUES
 ('Crime and Punishment', 'Fyodor Dostoyvesky', 430, 4.0, 1866 );
 
 .print 'Average number of pages'
-SELECT avg(num_pages) AS avg_pages FROM books
+SELECT avg(num_pages) AS avg_pages FROM books;
+
+.print 
+.print 'books read'
+SELECT * FROM books
